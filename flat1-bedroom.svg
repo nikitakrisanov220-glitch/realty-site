@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8ec5e8"/><stop offset="1" stop-color="#e6f3fb"/></linearGradient></defs>
+<rect width="600" height="400" fill="#e8e2d6"/><rect y="290" width="600" height="110" fill="#b98b5e"/><rect y="286" width="600" height="6" fill="#00000020"/><rect x="394" y="54" width="142" height="132" fill="#fff" rx="4"/><rect x="400" y="60" width="130" height="120" fill="url(#sky)"/><path d="M465.0 60V180M400 120.0H530" stroke="#fff" stroke-width="5"/><rect x="90" y="120" width="260" height="110" rx="10" fill="#3f6b73"/><rect x="80" y="215" width="280" height="90" rx="12" fill="#fff"/>
+<rect x="80" y="250" width="280" height="55" rx="8" fill="#e0a43a"/><rect x="105" y="200" width="90" height="34" rx="14" fill="#f4f4f4" stroke="#0001"/><rect x="235" y="200" width="90" height="34" rx="14" fill="#f4f4f4" stroke="#0001"/>
+<rect x="30" y="235" width="40" height="70" rx="4" fill="#8a6a50"/><rect x="372" y="235" width="40" height="70" rx="4" fill="#8a6a50"/>
+<path d="M40 235l10-30h10l10 30z" fill="#e0a43a"/><ellipse cx="230" cy="350" rx="170" ry="26" fill="#3f6b73" opacity=".22"/>
+<rect x="470" y="210" width="90" height="95" rx="4" fill="#8a6a50"/><rect x="478" y="218" width="35" height="40" fill="#0002"/></svg>
