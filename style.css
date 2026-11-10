@@ -13,7 +13,7 @@ header .wrap{display:flex;align-items:center;justify-content:space-between;heigh
 nav{display:flex;gap:22px}
 nav a{opacity:.8;padding:6px 0;border-bottom:2px solid transparent}
 nav a:hover,nav a.on{opacity:1;border-color:var(--sun)}
-.hero{background:linear-gradient(rgba(22,35,59,.72),rgba(22,35,59,.72)),url(../img/hero.svg) center/cover var(--ink);color:#fff;padding:90px 0 70px}
+.hero{background:linear-gradient(rgba(22,35,59,.72),rgba(22,35,59,.72)),url(hero.svg) center/cover var(--ink);color:#fff;padding:90px 0 70px}
 .hero h1{font-size:clamp(2rem,5vw,3.4rem);max-width:700px}
 .hero p{margin:16px 0 0;max-width:520px;opacity:.9}
 .stats{display:flex;gap:36px;margin-top:34px;flex-wrap:wrap}

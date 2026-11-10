@@ -1,8 +1,8 @@
 const $ = (s, r=document) => r.querySelector(s);
 const fmt = n => n.toLocaleString('ru-RU') + ' €';
 // Фото лежат в папке img/. Чтобы использовать свои фото, замените файлы (или пути здесь).
-const img = (tag, lock) => tag==='apartment,interior' ? `img/flat${lock}-living.svg`
-  : tag==='house,architecture' ? `img/post${lock-100}.svg` : `img/flat${Math.floor(lock/10)}-${tag}.svg`;
+const img = (tag, lock) => tag==='apartment,interior' ? `flat${lock}-living.svg`
+  : tag==='house,architecture' ? `post${lock-100}.svg` : `flat${Math.floor(lock/10)}-${tag}.svg`;
 const page = document.body.dataset.page;
 
 // ---- Шапка и подвал ----
