@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DomPro — продаж квартир</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+<div id="header"></div>
+<div class="hero"><div class="wrap">
+  <h1>Знайдіть квартиру, у якій хочеться жити</h1>
+  <p>Перевірені об’єкти в найкращих районах Варшави. Чесні ціни, реальні фото та допомога з іпотекою.</p>
+  <div class="stats"><div><b>8</b>об’єктів у каталозі</div><div><b>4</b>райони</div><div><b>98 000 €</b>мінімальна ціна</div></div>
+</div></div>
+<section><div class="wrap">
+  <h2>Каталог квартир</h2>
+  <div class="filter">
+    <label>Пошук<input id="q" placeholder="Назва або вулиця"></label>
+    <label>Район<select id="district"></select></label>
+    <label>Кімнат<select id="rooms"><option value="">Будь-яка кількість</option><option>1</option><option>2</option><option>3</option><option value="4">4+</option></select></label>
+    <label>Ціна до, €<input id="maxPrice" type="number" min="0" step="10000" placeholder="наприклад 250000"></label>
+    <label>Сортування<select id="sort"><option value="">За замовчуванням</option><option value="asc">Спочатку дешевші</option><option value="desc">Спочатку дорожчі</option><option value="area">За площею</option></select></label>
+    <label>&nbsp;<button class="btn alt" id="reset" type="button">Скинути</button></label>
+  </div>
+  <p class="meta" id="count" style="margin-bottom:12px"></p>
+  <div class="grid" id="list"></div>
+</div></section>
+<div id="footer"></div>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
